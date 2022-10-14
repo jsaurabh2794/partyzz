@@ -1,0 +1,70 @@
+@font-face {
+    font-family: chopinscript;
+    src: url(../fonts/ChopinScript.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #e2e4dc;
+}
+
+div {
+    scroll-margin-top: 80px;
+}
+
+.cursive-design-font {
+    font-family:"chopinscript";
+    font-size: 75px;
+    color:#6E7B52;;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 3px 2px #6E7B52;
+    cursor: pointer;
+}
+
+/* gallery image hover effect */
+.middle-content {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Applying hover effect */
+  .col-md-3:hover .hover-effect {
+    opacity: 0.3 !important;
+    cursor: pointer;
+  }
+
+  .col-md-3:hover .middle-content {
+    opacity: 1 !important;
+  }
+
+  .btn.btn-custom-primary {
+    background-color: #6E7B52 !important;
+    color: white !important;
+  }
+  /* .col-md-6:hover div{
+    opacity: 0.3 !important;
+    cursor: pointer;
+  }
+  .col-md-6:hover .middle-content {
+    opacity: 1 !important;
+  } */
+
+  .btn:focus{
+    box-shadow: none !important;
+  }
+
+  #contactus a {
+    color: black !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+  }
